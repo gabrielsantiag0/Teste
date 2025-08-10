@@ -1,0 +1,59 @@
+.spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation: spin 155ms linear infinite;
+  background:
+    /* 12 "raios" brancos claros, usando gradiente linear */
+    repeating-conic-gradient(
+      from 0deg,
+      rgba(75, 73, 73, 0.15) 0deg 5deg,
+      transparent 10deg 20deg
+    );
+}
+
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(75, 73, 73, 0.15);
+  border-radius: 50%;
+  background: transparent;
+}
+
+@keyframes spin {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.icon-wrap-small {
+  position: relative;
+  width: 128px;
+  height: 64px;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 30px;   /* diâmetro menor */
+  height: 30px;
+  border-radius: 50%;
+}
+
+.circle.black {
+  left: 0;
+  background: #000;
+}
+
+.circle.ring {
+  left: 24px;              /* controla sobreposição */
+  background: transparent;
+  border: 3px solid #f97316;
+  z-index: 10;
+}
