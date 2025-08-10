@@ -8,7 +8,7 @@ export default function SearchButton() {
       className="p-2 border border-gray-300 rounded hover:bg-gray-100 transition-colors"
       aria-label="Search"
     >
-      <FontAwesomeIcon icon={faSearch} className="text-gray-700" />
+      <FontAwesomeIcon icon={faSearch} className="text-gray-400" />
     </button>
 
     

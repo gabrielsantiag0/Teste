@@ -1,11 +1,10 @@
-import { useState } from 'react'
 import './App.css'
-import Home from './page/Lp/header'
+import Lp from './page/noWeb/Lp'
 
 function App() {
   return (
     <>
-    <Home />
+    <Lp />
     </>
   )
 }

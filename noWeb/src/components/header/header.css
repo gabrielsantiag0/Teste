@@ -1,0 +1,5 @@
+.a-header:hover {
+  text-decoration: underline;
+  text-decoration-color: #22c55e; /* verde-500 do Tailwind */
+  text-underline-offset: 2px; /* opcional, deixa o underline com um espacinho legal */
+}
