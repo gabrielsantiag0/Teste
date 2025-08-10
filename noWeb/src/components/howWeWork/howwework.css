@@ -1,0 +1,52 @@
+.spinner {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background:
+    repeating-conic-gradient(
+      from 0deg,
+      rgba(75, 73, 73, 0.15) 0deg 5deg,
+      transparent 10deg 20deg
+    );
+}
+
+.center-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border: 2px solid rgba(75, 73, 73, 0.15);
+  border-radius: 50%;
+  background: transparent;
+}
+
+
+.container-circuloServies{
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+
+.badge-circulo {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.badge-circulo-preto {
+  background-color: #111; 
+  left: 0;
+  z-index: 2;
+}
+
+.badge-circulo-laranja {
+  border: 2px solid #f66a3c; 
+  background-color: transparent;
+  left: 8px; 
+  z-index: 1;
+}
