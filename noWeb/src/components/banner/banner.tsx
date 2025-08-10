@@ -8,7 +8,7 @@ import ImagBanner from '../../assets/image.png';
 export function Banner() {
   return (
 <section className="w-full font-sans">
-      <div className="max-w-7xl mx-auto container p-8">
+      <div className="max-w-7xl mx-auto container p-12 py-24">
         {/* Texto pequeno no topo */}
         <div className="pl-16 mb-4">
           <p className="text-sm text-gray-700">
