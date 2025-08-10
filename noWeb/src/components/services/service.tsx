@@ -1,5 +1,6 @@
-import React from 'react';
 import Vector from '../../assets/Vector-services.png';
+import Vector2 from '../../assets/Vector-services-2.png';
+import Vector3 from '../../assets/Vector-services-3.png';
 import './service.css';
 
 export default function Services() {
@@ -30,10 +31,9 @@ export default function Services() {
   </div>
         <span className="flex grow-1 h-px bg-gray-300 my-12"></span>
         <div className="flex justify-center">
-        <div className=" grid grid-cols-3 gap-4">
-          <div>
-            <div className="relative border border-gray-200 p-8 w-[410px] h-[364px]">
-  {/* Conteúdo do card */}
+        <div className=" grid grid-cols-3 gap-7">
+          <div className='column-1'>
+          <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
       <span className="w-1 h-1 bg-gray-400 rounded-full inline-block"></span>
@@ -44,7 +44,6 @@ export default function Services() {
       Web Design And <br /> Development
     </h3>
 
-    {/* Ícone principal */}
     <div>
       <img src={Vector} alt="" />
       
@@ -55,16 +54,120 @@ export default function Services() {
     </p>
   </div>
 
-  {/* Círculo no canto com seta */}
-  <div className="absolute hover:bg-green-200 -bottom-6 -right-6 w-16 h-16 bg-white border border-gray-200 rounded-full flex items-center justify-center shadow-sm">
-    <svg className='' xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m600-200-57-56 184-184H80v-80h647L544-704l56-56 280 280-280 280Z"/></svg>
+  <div className="absolute hover:bg-[rgb(191,247,71)]  -bottom-6 -right-6 w-16 h-16  rounded-full flex items-center justify-center shadow-sm">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  height="24px"
+  width="24px"
+  viewBox="0 -960 960 960"
+  fill="#1f1f1f"
+  className="transform transition-transform duration-600 scale-x-[-1] hover:-rotate-45"
+>
+  <path d="M200-200v-400h80v264l464-464 56 56-464 464h264v80H200Z" />
+</svg>
       </div>
-    </div>
           </div>
-          <div>02</div>
-          <div>03</div>
+          </div>
+          <div className='column-2'>
+             <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
+  <div className="flex flex-col gap-4">
+    <span className="text-sm text-gray-400 flex items-center gap-2">
+      <span className="w-1 h-1 bg-gray-400 rounded-full inline-block"></span>
+       Brand Strategy
+    </span>
+
+    <h3 className="text-3xl font-serif leading-tight">
+     Branding And <br /> Creative Services
+    </h3>
+
+    <div>
+      <img src={Vector2} alt="" />
+      
+    </div>
+
+    <p className="text-gray-400 text-sm leading-relaxed">
+      Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
+    </p>
+  </div>
+
+  <div className="absolute hover:bg-[rgb(191,247,71)]  -bottom-6 -right-6 w-16 h-16  rounded-full flex items-center justify-center shadow-sm">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  height="24px"
+  width="24px"
+  viewBox="0 -960 960 960"
+  fill="#1f1f1f"
+  className="transform transition-transform duration-600 scale-x-[-1] hover:-rotate-45"
+>
+  <path d="M200-200v-400h80v264l464-464 56 56-464 464h264v80H200Z" />
+</svg>
+      </div>
+            </div>
+          </div>
+          <div className='column-3'>
+ <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
+  <div className="flex flex-col gap-4">
+    <span className="text-sm text-gray-400 flex items-center gap-2">
+      <span className="w-1 h-1 bg-gray-400 rounded-full inline-block"></span>
+      Identity Build
+    </span>
+
+    <h3 className="text-3xl font-serif leading-tight">
+      Creative Digital <br /> Agency
+    </h3>
+
+    <div>
+      <img src={Vector3} alt="" />
+      
+    </div>
+
+    <p className="text-gray-400 text-sm leading-relaxed">
+      Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
+    </p>
+  </div>
+
+  <div className="absolute hover:bg-[rgb(191,247,71)]  -bottom-6 -right-6 w-16 h-16  rounded-full flex items-center justify-center shadow-sm">
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  height="24px"
+  width="24px"
+  viewBox="0 -960 960 960"
+  fill="#1f1f1f"
+  className="transform transition-transform duration-600 scale-x-[-1] hover:-rotate-45"
+>
+  <path d="M200-200v-400h80v264l464-464 56 56-464 464h264v80H200Z" />
+</svg>
+      </div>
+            </div>
+          </div>
         </div>
         </div>
+
+        <div className="flex justify-center items-center mt-25 bg-white font-sans">
+  <div className="flex  justify-center items-center relative">
+
+    <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] ml-0">
+      <span className="text-[48px] font-bold text-black mb-[10px]">35k+</span>
+      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Project<br />Complete</span>
+    </div>
+
+    <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] -ml-10">
+      <span className="text-[48px] font-bold text-black mb-[10px]">10k+</span>
+      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Happy<br />Customers</span>
+    </div>
+
+    <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] -ml-10">
+      <span className="text-[48px] font-bold text-black mb-[10px]">25+</span>
+      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Years<br />Experiences</span>
+    </div>
+
+    <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] -ml-10">
+      <span className="text-[48px] font-bold text-black mb-[10px]">88</span>
+      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Awards<br />Achievement</span>
+    </div>
+
+  </div>
+</div>
 </section>
 
   )

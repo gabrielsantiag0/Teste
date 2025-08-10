@@ -18,7 +18,7 @@
   left: 0;
 }
 
-.circle.right {
+.circleAbout.right {
   right: 0;
 }
 
@@ -38,7 +38,6 @@
     transparent 4px
   );
 
-  /* recorte circular */
   clip-path: circle(20% at 50% 57%);
 }
 
