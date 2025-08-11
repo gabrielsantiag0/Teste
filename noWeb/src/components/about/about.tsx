@@ -3,7 +3,7 @@ import SystemLogo from '../../assets/SystemLogo.png';
 import TechLogo from '../../assets/TechLogo.png';
 import TechnologyLogo from '../../assets/TechnologyLogo.png';
 import TechLogy from '../../assets/TechLogy.png';
-import GrupoLogo from '../../assets/GrupoLogo.png'
+import GrupoLogo from '../../assets/grupoLogo.png'
 
 import './about.css';
 import '../../App.css'
