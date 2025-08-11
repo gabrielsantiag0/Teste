@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Menu, MenuButton, MenuItem, MenuItems } from "@headlessui/react";
-import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import { ChevronDownIcon, Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
 
 import logo from "../../assets/logo.png"; 
 import SearchandQuote from "../button/SearchandQuote";
@@ -10,20 +10,22 @@ import '../../App.css'
 import "./header.css"; 
 
 export default function Header() {
-  const [openMenu, setOpenMenu] = useState<string | null>(null);
+   const [mobileOpen, setMobileOpen] = useState(false);
+  const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
 
-  const toggleMenu = (menu: string) => {
-    setOpenMenu(openMenu === menu ? null : menu);
-  };
+  const toggleDropdown = (menu: string) => {
+    setMobileDropdown(mobileDropdown === menu ? null : menu);
+  }; 
 
   return (
     <header className="w-full border-b border-gray-200">
+      
       <div className="max-w-7xl mx-auto flex items-center justify-between py-4 px-6">
         <div className="flex items-center gap-2">
           <img src={logo} alt="" className="h-10" />
         </div>
 
-        <nav className="hidden md:flex items-center gap-8 text-black font-regular">
+        <nav className="hidden md:flex items-center gap-8 text-black">
           <ul className="flex justify-end lg:items-center flex-grow pe-3 font-dm lg:gap-8 w-full">
             <li className="relative inline-flex items-center">
               <a className="a-header" href="">
@@ -53,13 +55,13 @@ export default function Header() {
               </Menu>
             </li>
             <li>
-              <a className="a-header" href="">
+              <a className="a-header" href="#about">
                 About Us
               </a>
             </li>
 
             <li className="relative inline-flex items-center">
-              <a className="a-header" href="">
+              <a className="a-header" href="#portifolio">
                 Portifolios
               </a>
               <Menu as="div" className="relative inline-block">
@@ -113,7 +115,6 @@ export default function Header() {
                 </MenuItems>
               </Menu>
             </li>
-
             <li className="relative inline-flex items-center">
               <a className="a-header" href="">
                 Blog
@@ -141,7 +142,6 @@ export default function Header() {
                 </MenuItems>
               </Menu>
             </li>
-
             <li>
               <a className="a-header" href="">
                 Contact Us
@@ -149,12 +149,47 @@ export default function Header() {
             </li>
           </ul>
         </nav>
-
-        <div className="flex items-center gap-4">
+        <div className="hidden md:flex items-center gap-4">
           <SearchButton />
           <SearchandQuote />
         </div>
+         <button 
+          className="block md:hidden p-2" 
+          onClick={() => setMobileOpen(!mobileOpen)}
+        >
+          {mobileOpen ? (
+            <XMarkIcon className="h-7 w-7 text-black" />
+          ) : (
+            <Bars3Icon className="h-7 w-7 text-black" />
+          )}
+        </button>
       </div>
+
+     {mobileOpen && (
+  <div className="fixed inset-0 bg-white z-50 flex flex-col p-6">
+    <div className="flex justify-between items-center mb-6">
+      <img src={logo} alt="Logo" className="h-10" />
+      <button onClick={() => setMobileOpen(false)}>
+        <XMarkIcon className="h-7 w-7 text-black" />
+      </button>
+    </div>
+
+    <ul className="flex flex-col gap-6 font-dm text-lg">
+      <li><a className="a-header" href="">Home</a></li>
+      <li><a className="a-header" href="#about">About Us</a></li>
+      <li><a className="a-header" href="#portifolio">Portfolios</a></li>
+      <li><a className="a-header" href="">Pages</a></li>
+      <li><a className="a-header" href="">Blog</a></li>
+      <li><a className="a-header" href="">Contact Us</a></li>
+    <div className="mt-auto flex gap-4">
+      <SearchButton />
+      <SearchandQuote />
+    </div>
+    </ul>
+
+  </div>
+)}
+
     </header>
   );
 }
