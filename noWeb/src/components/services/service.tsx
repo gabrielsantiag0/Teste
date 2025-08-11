@@ -12,12 +12,27 @@ export default function Services() {
           <div className="spinner bg-black mx-auto lg:mx-0">
           <div className="center-circle"></div>
         </div>
-        <div className='flex-1 flex-col pl-0 lg:pl-50 text-center lg:text-left'>
-          <div className="container-circuloServies flex justify-center lg:justify-start">
-          <div className="badge-circulo badge-circulo-preto"></div>
-          <div className="badge-circulo badge-circulo-laranja"></div>
-        <span className="text-xs flex items-center uppercase tracking-widest text-gray-500 font-semibold pl-7">Services</span>
-        </div>
+        <div className='flex-1 flex-col pl-0 lg:pl-50 text-center lg:text-center'>
+{/* Essa aparece só no mobile (até sm) */}
+<div className="mb-10 flex flex-col sm:flex-row justify-center items-center gap-3 block sm:hidden">
+  <div className="container-circuloServies flex justify-center items-center gap-5">
+    <div className="badge-circulo badge-circulo-preto"></div>
+    <div className="badge-circulo badge-circulo-laranja"></div>
+  </div>
+  <span className="text-xs font-dm uppercase tracking-widest text-gray-400 font-semibold pl-4">
+   Services
+  </span>
+</div>
+
+{/* Essa some no mobile e aparece a partir do sm (desktop) */}
+<div className="container-circuloServies flex justify-center lg:justify-start hidden sm:flex">
+  <div className="badge-circulo badge-circulo-preto"></div>
+  <div className="badge-circulo badge-circulo-laranja"></div>
+  <span className="text-xs flex items-center uppercase tracking-widest text-gray-500 font-semibold pl-7">
+    Services
+  </span>
+</div>
+
     <div className='pl-0 lg:pl-7 pt-2'>
          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-ma leading-tight mb-6 max-w-xl mx-auto lg:mx-0">
         Empowering Brands Through Strategic Digital Services

@@ -22,6 +22,9 @@ export function Banner() {
             <h1 className="text-4xl sm:text-5xl md:text-9xl font-gallery leading-none text-center md:text-left">
               Digital
             </h1>
+              <span className="block md:hidden text-4xl font-gallery font-normal text-black">
+              Solution
+            </span>
           </div>
 
        <div className="flex-1 flex flex-col text-gray-700 text-sm px-4 sm:px-0 text-center md:text-left">
@@ -53,25 +56,30 @@ export function Banner() {
         </div>
         </div>
 
-    <div className="flex flex-col md:flex-row items-center md:items-center gap-6 md:gap-24 mt-6 px-4 sm:px-0">
-        <div className="flex items-center pl-4 md:pl-16">
-            <button className="bg-lime-400 text-black font-bold px-6 py-2  rounded-2xl">
-              <p className='pr-5 font-dm font-medium text-center md:text-left'>WEB <br /> DESIGN</p>
-              
-            </button>
-          <div className="w-12 h-12 md:w-16 md:h-16 rounded-3xl bg-black flex items-center justify-center shadow-lg -ml-7">
-            <img
-            src={Avatar}
-            alt="Avatar"
-            className="w-8 h-8 md:w-10 md:h-10 rounded-full"
-            />
-          </div>
-        </div>
- 
-      <div>
-        <h1 className="text-4xl sm:text-5xl md:text-9xl font-gallery font-normal text-black text-center md:text-left">Solution</h1>
-      </div>
+<div className="flex flex-col md:flex-row items-center md:items-center gap-6 md:gap-24 mt-6 px-4 sm:px-0">
+  {/* WEB DESIGN */}
+  <div className="order-1 md:order-1 flex items-center pl-4 md:pl-16">
+    <button className="bg-lime-400 text-black font-bold px-6 py-2 rounded-2xl">
+      <p className="pr-5 font-dm font-medium text-center md:text-left">
+        WEB <br /> DESIGN
+      </p>
+    </button>
+    <div className="w-12 h-12 md:w-16 md:h-16 rounded-3xl bg-black flex items-center justify-center shadow-lg -ml-7">
+      <img
+        src={Avatar}
+        alt="Avatar"
+        className="w-8 h-8 md:w-10 md:h-10 rounded-full"
+      />
     </div>
+  </div>
+
+<div className="hidden md:block order-2 md:order-2">
+  <h1 className="text-4xl sm:text-5xl md:text-9xl font-gallery font-normal text-black text-center md:text-left">
+    Solution
+  </h1>
+</div>
+</div>
+
       </div>
         <div className="w-full">
         <img

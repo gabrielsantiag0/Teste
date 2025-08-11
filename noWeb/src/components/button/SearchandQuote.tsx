@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
+import logo from '../../assets/logo.png';
 
 export default function SearchandQuote() {
   const [isOpen, setIsOpen] = useState(false);
@@ -65,7 +66,7 @@ export default function SearchandQuote() {
           >
             <div className="flex flex-col sm:flex-row justify-center items-center sm:gap-4 gap-2 text-center sm:text-left">
               <h2 className="text-lg text-black font-semibold mb-0">Pesquisar CEP</h2>
-              <img className="w-16 sm:w-20 pb-2 sm:pb-4" src="/src/assets/logo.png" alt="" />
+              <img className="w-16 sm:w-20 pb-2 sm:pb-4" src={logo} alt="" />
             </div>
 
             <form
