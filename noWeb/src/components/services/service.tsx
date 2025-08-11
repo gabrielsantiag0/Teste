@@ -2,6 +2,7 @@ import Vector from '../../assets/Vector-services.png';
 import Vector2 from '../../assets/Vector-services-2.png';
 import Vector3 from '../../assets/Vector-services-3.png';
 import './service.css';
+import '../../App.css';
 
 export default function Services() {
   return (
@@ -18,29 +19,29 @@ export default function Services() {
         <span className="text-xs flex items-center uppercase tracking-widest text-gray-500 font-semibold pl-7 ">Services</span>
         </div>
     <div className='pl-7 pt-2'>
-         <h2 className="text-4xl font-serif leading-tight mb-6 max-w-xl">
-        Empowering Brands Through <br /> Strategic Digital Services
+         <h2 className="text-4xl font-ma leading-tight mb-6 max-w-xl">
+        Empowering Brands Through Strategic Digital Services
       </h2>
     </div>
     <div className='pl-25 pt-5 '>
-        <p className="text-gray-400 max-w-md border-l-2 border-gray-300 pl-4 text-sm leading-relaxed">
-        Established in 1995, NEXIN Has Been A Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate Team Of Designers,
+        <p className="text-gray-400 max-w-md border-l-2 border-gray-300 pl-4 text-sm font-dm leading-relaxed">
+        Established in 1995, NEXIN Has Been A Leading <br /> Force In The Digital Landscape For Over Two <br />Decades. We're A Passionate Team Of Designers,
       </p>
     </div>
       </div>
   </div>
-        <span className="flex grow-1 h-px bg-gray-300 my-12"></span>
+        <span className="flex grow-1 h-px bg-gray-300 my-15"></span>
         <div className="flex justify-center">
         <div className=" grid grid-cols-3 gap-7">
           <div className='column-1'>
           <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
-      <span className="w-1 h-1 bg-gray-400 rounded-full inline-block"></span>
+      <span className="w-1 h-1 font-dm bg-gray-400 rounded-full inline-block"></span>
       Visual Branding
     </span>
 
-    <h3 className="text-3xl font-serif leading-tight">
+    <h3 className="text-3xl font-ma leading-tight">
       Web Design And <br /> Development
     </h3>
 
@@ -49,7 +50,7 @@ export default function Services() {
       
     </div>
 
-    <p className="text-gray-400 text-sm leading-relaxed">
+    <p className="text-gray-400 text-sm text-dm leading-relaxed">
       Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
     </p>
   </div>
@@ -72,11 +73,11 @@ export default function Services() {
              <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
-      <span className="w-1 h-1 bg-gray-400 rounded-full inline-block"></span>
+      <span className="w-1 h-1 bg-gray-400 text-dm rounded-full inline-block"></span>
        Brand Strategy
     </span>
 
-    <h3 className="text-3xl font-serif leading-tight">
+    <h3 className="text-3xl font-ma leading-tight">
      Branding And <br /> Creative Services
     </h3>
 
@@ -85,7 +86,7 @@ export default function Services() {
       
     </div>
 
-    <p className="text-gray-400 text-sm leading-relaxed">
+    <p className="text-gray-400 text-sm font-dm leading-relaxed">
       Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
     </p>
   </div>
@@ -108,11 +109,11 @@ export default function Services() {
  <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
-      <span className="w-1 h-1 bg-gray-400 rounded-full inline-block"></span>
+      <span className="w-1 h-1 bg-gray-400 font-dm rounded-full inline-block"></span>
       Identity Build
     </span>
 
-    <h3 className="text-3xl font-serif leading-tight">
+    <h3 className="text-3xl font-ma leading-tight">
       Creative Digital <br /> Agency
     </h3>
 
@@ -121,7 +122,7 @@ export default function Services() {
       
     </div>
 
-    <p className="text-gray-400 text-sm leading-relaxed">
+    <p className="text-gray-400 font-dm text-sm leading-relaxed">
       Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
     </p>
   </div>
@@ -147,23 +148,23 @@ export default function Services() {
   <div className="flex  justify-center items-center relative">
 
     <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] ml-0">
-      <span className="text-[48px] font-bold text-black mb-[10px]">35k+</span>
-      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Project<br />Complete</span>
+      <span className="font-dm text-5xl font-medium text-black mb-[10px]">35k+</span>
+      <span className="font-medium text-gray-400  font-ma overflow-hidden">Project<br />Complete</span>
     </div>
 
     <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] -ml-10">
-      <span className="text-[48px] font-bold text-black mb-[10px]">10k+</span>
-      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Happy<br />Customers</span>
+      <span className="font-dm text-5xl font-medium text-black mb-[10px]">10k+</span>
+      <span className="font-medium text-gray-400  font-ma overflow-hidden">Happy<br />Customers</span>
     </div>
 
     <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] -ml-10">
-      <span className="text-[48px] font-bold text-black mb-[10px]">25+</span>
-      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Years<br />Experiences</span>
+      <span className="font-dm text-5xl font-medium text-black mb-[10px]">25+</span>
+      <span className="font-medium text-gray-400  font-ma overflow-hidden">Years<br />Experiences</span>
     </div>
 
     <div className="flex flex-col justify-center items-center text-center w-[250px] h-[250px] rounded-full border border-[#ddd] -ml-10">
-      <span className="text-[48px] font-bold text-black mb-[10px]">88</span>
-      <span className="w-[160px] h-[45px] text-[14px] text-[#777] leading-[1.4em] flex justify-center items-center overflow-hidden">Awards<br />Achievement</span>
+      <span className="font-dm text-5xl font-medium text-black mb-[10px]">88</span>
+      <span className="font-medium text-gray-400  font-ma overflow-hidden">Awards<br />Achievement</span>
     </div>
 
   </div>

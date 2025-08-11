@@ -4,10 +4,12 @@ module.exports = {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-   theme: {
+  theme: {
     extend: {
       fontFamily: {
-        gallery: ['"Gallery Modern"', 'sans-serif', 'Poppins'],
+        gallery: ['Gallery',],
+        dm: ['DmSans',],
+        marcellus: ['Marcellus',],
       },
     },
   },

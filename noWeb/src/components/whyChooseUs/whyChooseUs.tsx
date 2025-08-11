@@ -1,4 +1,7 @@
 import React from 'react'
+
+import '../../App.css'
+
 import img2 from '../../assets/img-computer.png'
 import coworking from '../../assets/coworking.png'
 import image4 from '../../assets/image4.png'
@@ -16,17 +19,17 @@ export default function WhyChooseUs() {
           <div className="badge-circulo badge-circulo-preto"></div>
           <div className="badge-circulo badge-circulo-laranja"></div>
         </div>
-         <span className="text-xs uppercase tracking-widest text-gray-500 font-semibold pl-4">
+         <span className="text-base uppercase text-gray-500 font-semibold font-dm pl-4">
       What Sets Us Apart
     </span>
   </div>
 
-  <h1 className="text-5xl font-bold mb-3">
+  <h1 className="text-5xl font-ma font-medium mb-3">
     Driving Digital Success <br />
      with Strategy Design
   </h1>
 
-  <p className="text-gray-500 text-sm mb-5">
+  <p className="text-gray-400 font-dm text-sm mb-5">
     We Believe That The Surest Measure Of Success Is When Our Partners With <br /> Us More Than Half
     It’s More Than Just The Visuals.
   </p>
@@ -39,14 +42,14 @@ export default function WhyChooseUs() {
     <div className="w-[283px] flex flex-col ">
   <img src={coworking} alt="Team meeting" className="w-[283px] h-[250px] object-cover rounded" />
 
-  <p className="text-gray-500 text-sm  mt-4">
+  <p className="text-gray-400 font-dm text-sm  mt-4">
     Conduct thorough market research to <br />
     the fast target audience behaviours. <br />
     Submit as many design tasks
   </p>
 
   <a href="#"
-     className="mt-6 w-[120px] h-[120px] rounded-full border border-black flex items-center justify-center text-black font-semibold text-sm hover:bg-[rgb(191,247,71)] transition">
+     className="mt-6 w-[120px] h-[120px] rounded-full border border-black flex items-center justify-center text-black font-semibold font-dm text-sm hover:bg-[rgb(191,247,71)] transition">
     Contact Us <svg xmlns="http://www.w3.org/2000/svg" height="15px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/></svg>
   </a>
 </div>
@@ -54,18 +57,18 @@ export default function WhyChooseUs() {
 
 <div className='flex-1'>
     <div className="w-[283px] flex flex-col py-6">
-  <p className="text-gray-500 text-sm mb-4">
+  <p className="text-gray-400 text-sm font-dm mb-4">
     We Believe That The Surest Measure Of Success Is When Our Partners With Us More Than Half  
     It's More Than Just The Visuals. We're Here To Support Your Growth.
   </p>
 
-  <p className="text-gray-500 text-sm mb-8">
+  <p className="text-gray-400 text-sm font-dm mb-8">
     We Believe That The Surest Measure Of Success Is When Our Partners With Us More Than Half  
     It's More Than Just The Visuals.
   </p>
 
-  <h3 className="text-xl font-serif font-semibold mb-1 pt-12">Our Mission</h3>
-  <p className="text-gray-500 text-sm mb-6">
+  <h3 className="text-xl font-ma font-semibold mb-1 pt-12">Our Mission</h3>
+  <p className="text-gray-400 text-sm font-dm mb-6">
     Conduct thorough market research to the fast target audience behaviours.
   </p>
 
@@ -80,7 +83,7 @@ export default function WhyChooseUs() {
       </div>
 
       <div className="bg-lime-400 rounded-[30px] pt-16 pb-4 px-2 text-center w-27">
-        <p className="text-black font-semibold leading-tight">Marketing Strategy</p>
+        <p className="text-black font-dm font-semibold leading-tight">Marketing Strategy</p>
       </div>
     </div>
       <div className="relative flex flex-col items-center w-40">
@@ -93,7 +96,7 @@ export default function WhyChooseUs() {
       </div>
 
       <div className="bg-lime-400 rounded-[30px] pt-16 pb-4 px-2 text-center w-27">
-        <p className="text-black font-semibold leading-tight">UX/UI Solution</p>
+        <p className="text-black font-dm font-semibold leading-tight">UX/UI Solution</p>
       </div>
     </div>
 </div>

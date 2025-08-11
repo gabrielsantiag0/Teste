@@ -7,6 +7,8 @@ import TechLogy from '../../assets/TechLogy.png';
 import GrupoLogo from '../../assets/GrupoLogo.png'
 
 import './about.css';
+import '../../App.css'
+
 
 export default function About() {
   return (
@@ -14,10 +16,10 @@ export default function About() {
   <div className="max-w-7xl mx-auto container text-white px-30 py-20">
     <div className="flex flex-row justify-center items-center">
       <div className='flex-1/6'>
-      <p className='text-3xl'>We collaborate with a few disability service providers to create inclusive goods that meet their requirements.
+      <p className='text-3xl font-ma '>We collaborate with a few disability service br providers to create inclusive goods that meet their requirements.
       </p>
       </div>
-      <div className='flex-1/6 flex-none bg-amber-700'></div>
+      <div className=' flex-none bg-amber-700'></div>
       <div className='flex-1 items-end-safe'>
        <div className="flex justify-end flex-1">
 <div className="containerCirculo">
@@ -28,17 +30,18 @@ export default function About() {
       </div>
       </div>
     </div>  
-      <div className="flex flex-row justify-center items-center mt-10 gap-4">
+      <div className="flex flex-row justify-center items-center mt-10 gap-15">
         <div className='flex-1'>
-          <p className='text-center text-bold text-6xl'>25+</p> 
-          <p className='text-center text-medium'>Years of Experience</p>
+          <p className='text-center font-dm font-bold text-2xl'>25+</p> 
+          <p className='text-center text-base font-bold font-dm'>Years of Experience</p>
         </div>
         <div className='flex-1 '>
              <div className="flex-1 flex flex-col">
-          <p className="mb-4">
-           Established in 1995, NEXIN has been a leading force
-           in the digital landscape for over two decades. We're
-           a passionate team of designers. 
+          <p className="pt-2 mb-4 font-dm text-base">
+          Established in 1995, NEXIN has been a 
+          leading force in the digital landscape 
+          for over two decades. We're a passionate 
+          team of designers,  
           </p>
           <a
             href="#"
@@ -49,12 +52,13 @@ export default function About() {
           </a>
         </div>
         </div>
-            <div className='flex-1 '>
+        <div className='flex-1 '>
              <div className="flex-1 flex flex-col">
-          <p className="mb-4">
-           Established in 1995, NEXIN has been a leading force
-           in the digital landscape for over two decades. We're
-           a passionate team of designers,  
+          <p className="pt-2 mb-4 font-dm font-sm">
+          Established in 1995, NEXIN has been a 
+          leading force in the digital landscape 
+          for over two decades. We're a passionate 
+          team of designers,  
           </p>
           <a
             href="#"
@@ -65,10 +69,11 @@ export default function About() {
           </a>
         </div>
         </div>
+
       </div>
       <div className="flex items-center w-full text-white mt-20">
         <span className="flex grow-1 h-px bg-gray-600"></span>
-        <span className="px-4 text-bold">We Worked With Global Largest Brands</span>
+        <span className="px-4 text-2xl font-ma text-gray-200">We Worked With Global Largest Brands</span>
         <span className="flex grow-6 h-px bg-gray-600"></span>
       </div>
 

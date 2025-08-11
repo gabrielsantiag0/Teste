@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../App.css'
 
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
 import Avatar from '../../assets/Avatar.png';
@@ -10,21 +11,22 @@ export function Banner() {
 <section className="w-full font-sans">
       <div className="max-w-7xl mx-auto container px-30 py-20">
         <div className="pl-16 mb-4">
-          <p className="text-sm text-gray-700">
+          <p className="text-sm font-dm text-gray-700">
             Great Design Services <br />
             Without The Pretentiousness.!
           </p>
         </div>
 
-=        <div className="flex gap-8 items-center">
+
+      <div className="flex gap-8 items-center">
           <div className="flex-1 pl-16">
-            <h1 className="text-9xl font-gallery font-normal leading-none">
+            <h1 className="text-9xl font-gallery leading-none">
               Digital
             </h1>
           </div>
 
        <div className="flex-1 flex flex-col text-gray-700 text-sm">
-          <p className="mb-4 font-poppins">
+          <p className="mb-4 font-dm">
             We believe that the surest measure of success is when our partners
             with us more than half. It's more than just the visuals. We're
             here to support your growth.
@@ -55,7 +57,7 @@ export function Banner() {
     <div className="flex  items-center gap-24">
         <div className="flex items-center mt-6 pl-16">
             <button className="bg-lime-400 text-black font-bold px-6 py-2 rounded rounded-2xl">
-              <p className='pr-5 font-medium '>WEB <br /> DESIGN</p>
+              <p className='pr-5 font-dm font-medium '>WEB <br /> DESIGN</p>
               
             </button>
           <div className="w-16 h-16 rounded-xl bg-black flex items-center justify-center shadow-lg">

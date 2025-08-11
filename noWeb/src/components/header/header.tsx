@@ -5,6 +5,8 @@ import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import logo from "../../assets/logo.png"; 
 import SearchandQuote from "../button/SearchandQuote";
 import SearchButton from "../search/SearchButton";
+
+import '../../App.css'
 import "./header.css"; 
 
 export default function Header() {
@@ -22,7 +24,7 @@ export default function Header() {
         </div>
 
         <nav className="hidden md:flex items-center gap-8 text-black font-regular">
-          <ul className="flex justify-end lg:items-center flex-grow pe-3 lg:gap-8 w-full">
+          <ul className="flex justify-end lg:items-center flex-grow pe-3 font-dm lg:gap-8 w-full">
             <li className="relative inline-flex items-center">
               <a className="a-header" href="">
                 Home
