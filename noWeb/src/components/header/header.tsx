@@ -11,11 +11,6 @@ import "./header.css";
 
 export default function Header() {
    const [mobileOpen, setMobileOpen] = useState(false);
-  const [mobileDropdown, setMobileDropdown] = useState<string | null>(null);
-
-  const toggleDropdown = (menu: string) => {
-    setMobileDropdown(mobileDropdown === menu ? null : menu);
-  }; 
 
   return (
     <header className="w-full border-b border-gray-200">
