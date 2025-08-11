@@ -1,0 +1,27 @@
+
+.container-circuloServies{
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+
+.badge-circulo {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+}
+
+.badge-circulo-preto {
+  background-color: #111; 
+  left: 0;
+  z-index: 2;
+}
+
+.badge-circulo-laranja {
+  border: 2px solid #f66a3c; 
+  background-color: transparent;
+  left: 8px; 
+  z-index: 1;
+}
