@@ -1,4 +1,3 @@
-import React from 'react'
 import VideoPhoto from '../../assets/VideoPhoto.png'
 import '../../App.css'
 

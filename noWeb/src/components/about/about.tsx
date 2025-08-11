@@ -1,4 +1,3 @@
-import React from 'react';
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
 import SystemLogo from '../../assets/SystemLogo.png';
 import TechLogo from '../../assets/TechLogo.png';

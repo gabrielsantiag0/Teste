@@ -1,4 +1,3 @@
-import React from 'react';
 import '../../App.css'
 
 import { ArrowTopRightOnSquareIcon } from '@heroicons/react/24/solid';
