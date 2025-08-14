@@ -169,7 +169,7 @@ export default function Header() {
       </button>
     </div>
 
-    <ul className="flex flex-col gap-6 font-dm text-lg">
+    <ul className="flex flex-col gap-6 font-dm text-base">
       <li><a className="a-header" href="">Home</a></li>
       <li><a className="a-header" href="#about">About Us</a></li>
       <li><a className="a-header" href="#portifolio">Portfolios</a></li>

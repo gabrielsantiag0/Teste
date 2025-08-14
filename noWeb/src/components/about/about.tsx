@@ -15,7 +15,7 @@ export default function About() {
   <div className="max-w-7xl mx-auto container text-white px-4 sm:px-30 py-20">
     <div className="flex flex-col sm:flex-row justify-center items-center">
       <div className='flex-auto sm:flex-1/6 mb-6 sm:mb-0'>
-      <p className='text-3xl font-ma '>We collaborate with a few disability service br providers to create inclusive goods that meet their requirements.
+      <p className='text-3xl font-ma font-normal tracking-tight'>We collaborate with a few disability service providers to create inclusive goods that meet their requirements.
       </p>
       </div>
       <div className='hidden sm:flex flex-none h-12 w-2 mx-8'></div>
@@ -31,12 +31,12 @@ export default function About() {
     </div>  
       <div className="flex flex-col sm:flex-row justify-center items-center mt-10 gap-10 sm:gap-15 text-center sm:text-left">
         <div className='flex-1'>
-          <p className='text-center font-dm font-bold text-2xl'>25+</p> 
-          <p className='text-center text-base font-bold font-dm'>Years of Experience</p>
+          <p className='text-center font-dm font-bold text-4xl'>25+</p> 
+          <p className='text-center pr-0 md:pl-25 text-base font-bold font-dm'>Years of Experience</p>
         </div>
         <div className='flex-1 '>
              <div className="flex-1 flex flex-col">
-          <p className="pt-2 mb-4 font-dm text-base max-w-md mx-auto sm:mx-0">
+          <p className="pt-2 mb-4 font-dm text-sm max-w-md mx-auto sm:mx-0">
           Established in 1995, NEXIN has been a 
           leading force in the digital landscape 
           for over two decades. We're a passionate 
@@ -44,7 +44,7 @@ export default function About() {
           </p>
           <a
             href="#"
-            className="inline-flex items-center font-bold decoration-1 underline "
+            className="inline-flex items-center font-sm font-dm font-semibold decoration-1 underline "
           >
             More about us
             <ArrowTopRightOnSquareIcon className="w-4 h-4 ml-1" />
@@ -61,7 +61,7 @@ export default function About() {
           </p>
           <a
             href="#"
-            className="inline-flex items-center font-bold decoration-1 underline "
+            className="inline-flex items-center font-sm font-dm font-semibold decoration-1 underline "
           >
             Get in touch
             <ArrowTopRightOnSquareIcon className="w-4 h-4 ml-1" />

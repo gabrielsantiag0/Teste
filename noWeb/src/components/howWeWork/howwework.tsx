@@ -5,12 +5,12 @@ import './howwework.css'
 export default function HowWeWork() {
   return (
     <section className="py-16 px-5 text-center container justify-center">
-  <div className="mb-10 flex flex-col sm:flex-row justify-center items-center gap-3 ">
+  <div className="mb-10 flex flex-col sm:flex-row justify-center items-center gap-1">
             <div className="container-circuloServies flex justify-center items-center gap-5">
           <div className="badge-circulo badge-circulo-preto"></div>
           <div className="badge-circulo badge-circulo-laranja"></div>
         </div>
-         <span className="text-xs font-dm uppercase tracking-widest text-gray-400 font-semibold pl-4">
+         <span className="text-xs font-dm uppercase tracking-widest text-gray-400 font-semibold pl-2">
       Workflow
     </span>
   </div>
@@ -26,8 +26,8 @@ export default function HowWeWork() {
         <div className="flex-1/3 bg-black ml-4 w-[272px] h-px"></div>
         <span className="ml-4 text-lg font-bold text-gray-300">01</span>
       </div>
-      <h3 className="text-lg sm:text-xl font-ma font-bold mb-2 text-start">Research and Strategy</h3>
-      <p className="text-sm text-gray-400 font-dm leading-relaxed text-start">
+      <h5 className="text-xs sm:text-xl font-ma font-normal mb-2 text-start">Research and Strategy</h5>
+      <p className="text-xs sm:text-base text-gray-400 font-dm leading-relaxed text-start">
         Conduct thorough market research to understand target audience behaviors.
         Submit as many design tasks.
       </p>
@@ -41,8 +41,8 @@ export default function HowWeWork() {
         <div className="flex-1 h-px bg-black ml-4"></div>
         <span className="ml-4 text-lg font-bold text-gray-300">02</span>
       </div>
-      <h3 className="text-lg sm:text-xl font-ma font-bold mb-2 text-start">Plan Customization</h3>
-      <p className="text-sm text-gray-400 font-dm leading-relaxed text-start">
+      <h5  className="textxs] sm:text-xl font-ma font-normal mb-2 text-start">Plan Customization</h5>
+      <p className="text-xs sm:text-base text-gray-400 font-dm leading-relaxed text-start">
         Conduct thorough market research to understand target audience behaviors.
         Submit as many design tasks.
       </p>
@@ -56,8 +56,8 @@ export default function HowWeWork() {
         <div className="flex-1 h-px bg-black ml-4"></div>
         <span className="ml-4 text-lg font-bold text-gray-300">02</span>
       </div>
-      <h3 className="text-lg sm:text-xl font-ma font-bold mb-2 text-start">Finished & User Testing</h3>
-      <p className="text-sm text-gray-400 font-dm leading-relaxed text-start">
+      <h5 className="text-xs sm:text-xl font-ma font-normal mb-2 text-start">Finished & User Testing</h5>
+      <p className="text-xs sm:text-base text-gray-400 font-dm leading-relaxed text-start">
         Conduct thorough market research to understand target audience behaviors.
         Submit as many design tasks.
       </p>

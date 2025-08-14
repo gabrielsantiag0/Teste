@@ -39,7 +39,7 @@ export default function Services() {
       </h2>
     </div>
     <div className='pl-0 lg:pl-25 pt-5'>
-        <p className="text-gray-400 max-w-md mx-auto lg:mx-0 border-l-0 lg:border-l-2 border-gray-300 lg:pl-4 text-sm font-dm leading-relaxed">
+        <p className="text-gray-400 max-w-md mx-auto lg:mx-0 border-l-0 lg:border-l-2 border-gray-300 lg:pl-1 text-sm font-dm font-sm leading-relaxed">
         Established in 1995, NEXIN Has Been A Leading <br className="hidden lg:block"/> Force In The Digital Landscape For Over Two <br className="hidden lg:block"/>Decades. We're A Passionate Team Of Designers,
       </p>
     </div>
@@ -49,7 +49,7 @@ export default function Services() {
         <div className="flex justify-center" >
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-7 w-full max-w-6xl">
           <div className='column-1'>
-          <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 rounded-2xl">
+          <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 ">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
       <span className="w-1 h-1 font-dm bg-gray-400 rounded-full inline-block"></span>
@@ -61,11 +61,11 @@ export default function Services() {
     </h3>
 
     <div>
-      <img src={Vector} className="mx-auto lg:mx-0" alt="" />
+      <img src={Vector} className="mx-auto lg:mx-0 py-2" alt="" />
       
     </div>
 
-    <p className="text-gray-400 text-sm text-dm leading-relaxed">
+    <p className="text-gray-400 text-[12px] text-dm leading-relaxed">
       Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
     </p>
   </div>
@@ -85,7 +85,7 @@ export default function Services() {
           </div>
           </div>
           <div className='column-2'>
-             <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
+             <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
       <span className="w-1 h-1 bg-gray-400 text-dm rounded-full inline-block"></span>
@@ -97,11 +97,11 @@ export default function Services() {
     </h3>
 
     <div>
-      <img src={Vector2} alt="img-icone" className="mx-auto lg:mx-0"/>
+      <img src={Vector2} alt="img-icone " className="mx-auto lg:mx-0 py-2"/>
       
     </div>
 
-    <p className="text-gray-400 text-sm font-dm leading-relaxed">
+    <p className="text-gray-400 text-[12px] font-dm leading-relaxed">
       Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
     </p>
   </div>
@@ -121,7 +121,7 @@ export default function Services() {
             </div>
           </div>
           <div className='column-3'>
- <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto rounded-2xl">
+ <div className="relative border-2 border-gray-200 hover:border-[rgb(191,247,71)] transition-colors duration-300 p-8 w-auto">
   <div className="flex flex-col gap-4">
     <span className="text-sm text-gray-400 flex items-center gap-2">
       <span className="w-1 h-1 bg-gray-400 font-dm rounded-full inline-block"></span>
@@ -133,11 +133,11 @@ export default function Services() {
     </h3>
 
     <div>
-      <img src={Vector3} alt="" className="mx-auto lg:mx-0"/>
+      <img src={Vector3} alt="" className="mx-auto lg:mx-0 py-2"/>
       
     </div>
 
-    <p className="text-gray-400 font-dm text-sm leading-relaxed">
+    <p className="text-gray-400 font-dm text-[12px] leading-relaxed">
       Established In 1995, NEXIN Has Been Leading Force In The Digital Landscape For Over Two Decades. We're A Passionate
     </p>
   </div>
@@ -164,28 +164,28 @@ export default function Services() {
     
     <div className="flex flex-col justify-center items-center text-center w-[200px] sm:w-[220px] md:w-[250px] h-[200px] sm:h-[220px] md:h-[250px] rounded-full border border-[#ddd]">
       <span className="font-dm text-3xl sm:text-4xl md:text-5xl font-medium text-black mb-[10px]">35k+</span>
-      <span className="font-medium text-gray-400 font-ma overflow-hidden">
+      <span className="font-medium text-gray-400 font-ma text-xl overflow-hidden">
         Project<br />Complete
       </span>
     </div>
 
     <div className="flex flex-col justify-center items-center text-center w-[200px] sm:w-[220px] md:w-[250px] h-[200px] sm:h-[220px] md:h-[250px] rounded-full border border-[#ddd] lg:-ml-10">
       <span className="font-dm text-3xl sm:text-4xl md:text-5xl font-medium text-black mb-[10px]">10k+</span>
-      <span className="font-medium text-gray-400 font-ma overflow-hidden">
+      <span className="font-medium text-gray-400 font-ma text-xl overflow-hidden">
         Happy<br />Customers
       </span>
     </div>
 
     <div className="flex flex-col justify-center items-center text-center w-[200px] sm:w-[220px] md:w-[250px] h-[200px] sm:h-[220px] md:h-[250px] rounded-full border border-[#ddd] lg:-ml-10">
       <span className="font-dm text-3xl sm:text-4xl md:text-5xl font-medium text-black mb-[10px]">25+</span>
-      <span className="font-medium text-gray-400 font-ma overflow-hidden">
+      <span className="font-medium text-gray-400 font-ma text-xl overflow-hidden">
         Years<br />Experiences
       </span>
     </div>
 
     <div className="flex flex-col justify-center items-center text-center w-[200px] sm:w-[220px] md:w-[250px] h-[200px] sm:h-[220px] md:h-[250px] rounded-full border border-[#ddd] lg:-ml-10">
       <span className="font-dm text-3xl sm:text-4xl md:text-5xl font-medium text-black mb-[10px]">88</span>
-      <span className="font-medium text-gray-400 font-ma overflow-hidden">
+      <span className="font-medium text-gray-400 font-ma text-xl overflow-hidden">
         Awards<br />Achievement
       </span>
     </div>
